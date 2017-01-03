@@ -1,0 +1,148 @@
+
+.main-div{
+margin :50px 20px;
+}
+
+.image{
+  height:400px !important;
+  width:100% !important;
+}
+
+.text{
+  font-size: 16px;
+  font-style: italic;
+  color:#60beae;
+}
+.text-div{
+  display: block;
+  line-height: 1.3em;
+}
+.caption-text-right{
+  position: absolute;
+  float:right;
+  top:250px;
+  right:0px;
+  background: white;
+  color: black;
+  font-style: italic;
+  width: auto;
+}
+.data-text-right{
+  position: absolute;
+  float:right;
+  top:290px;
+  right:0px;
+  background: black;
+  color: white;
+  font-style: italic;
+  width: auto;
+}
+.caption-text-left{
+  position: absolute;
+  top:250px;
+  background: white;
+  color: black;
+  font-style: italic;
+  width: auto;
+}
+.data-text-left{
+  position: absolute;
+  top:290px;
+  background: black;
+  color: white;
+  font-style: italic;
+  width: auto;
+}
+.logo{
+    width: 120px;
+    height: 120px;
+}
+
+.padding-btn-group{
+  padding: 0px 0px !important;
+}
+
+.button-class{
+  background: #eff8f7;
+  border-radius: 0px !important;
+  color:#60beae;
+}
+
+.icon-class{
+  margin-left: 15px;
+}
+
+@media screen and (min-width: 990px) {
+  .icon-class{
+    margin-left: 0px;
+  }
+}
+@media screen and (max-width: 770px) {
+  .text{
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 575px) {
+  .text{
+    font-size: 10px;
+  }
+  .text-alignment{
+    text-align: center;
+  }
+  .nav-div{
+    margin-bottom:  20px !important;
+    border-bottom: 1px solid #e5e5e5 !important;
+  }
+}
+.btn-link {
+  text-align: left;
+}
+
+.para{
+  font-size: 10px;
+}
+.zero-padding{
+  padding: 0px !important;
+}
+
+.email-div{
+  padding-top: 10px;
+  margin: 20px 0px 20px 0px;
+  border:1px  dashed #e5e5e5;
+  border-left: none;
+  border-right: none;
+}
+
+.form-text{
+  font-size: 12px;
+}
+
+.card-image{
+  width:80%;
+  height:100px;
+  border:1px solid rgba(0,0,0,.125);
+  padding:5px 5px !important;
+
+}
+.card-div{
+  border :none !important;
+}
+
+.card-text{
+  font-size: 12px;
+}
+
+.promo-div{
+  border-bottom: 1px  dashed #e5e5e5;
+  margin-bottom: 10px;
+}
+
+.button-div{
+  border: 1px solid #e5e5e5;
+  border-radius: 10px;
+}
+
+.new-para{
+  font-size: 12px;
+  font-style: italic;
+}
