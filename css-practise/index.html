@@ -1,7 +1,8 @@
 
 <html>
 	<head>
-		<title>css-design</title>
+		<link rel="icon" type="image/jpg" href="assets/food-sense.jpg" sizes="196x196">
+		<title>Food Sense|Plant-Based Eating At Its Best</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
    		<meta http-equiv="x-ua-compatible" content="ie=edge">
 		<!-- angular min file -->
@@ -17,9 +18,12 @@
 		<script src="JS/vertical-nav.directive.js"></script>
 		<script src="JS/image.directive.js"></script>
 		<script src="JS/blog-card.directive.js"></script>
+		<script src="JS/footer.directive.js"></script>
+		<script src="JS/controller.js"></script>
 		<link rel="stylesheet" href="CSS/style.css">
 	</head>
- 	<body ng-app="designApp" >
+ 	<body ng-app="designApp" data-spy="scroll" data-target="#navbar-example">
 		<ui-view></ui-view>
+		<footer-dir></footer-dir>
   </body>
 </html>
